@@ -20,6 +20,16 @@ You can install the package from GitHub using `devtools`:
 devtools::install_github("UBC-STAT545-F2026/assignmentB2SouravShome")
 ```
 
+Alternatively, you can install the package using `pak`:
+
+``` r
+# Install pak if it is not already installed
+install.packages("pak")
+
+# Install the package using pak
+pak::pak("UBC-STAT545-F2026/assignmentB2SouravShome")
+```
+
 ## Example
 
 ``` r
