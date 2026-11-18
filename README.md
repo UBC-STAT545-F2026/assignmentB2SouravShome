@@ -26,18 +26,23 @@ devtools::install_github("UBC-STAT545-F2026/assignmentB2SouravShome")
 # Load the package
 library(assignmentB2SouravShome)
 
-# Summarize a numeric vector
+# Example 1: Summarize a numeric vector
 summarize_numeric(c(2, 4, 6, 8, 10))
 #>   n missing mean median       sd min max
 #> 1 5       0    6      6 3.162278   2  10
 
-# Summarize a vector with missing values
+# Example 2: Summarize a vector with missing values
 summarize_numeric(c(2, 4, NA, 8, 10))
 #>   n missing mean median       sd min max
 #> 1 5       1    6      6 3.651484   2  10
 
-# Keep missing values in the calculations
+# Example 3: Calculate statistics without removing missing values
 summarize_numeric(c(2, 4, NA, 8, 10), na.rm = FALSE)
 #>   n missing mean median sd min max
 #> 1 5       1   NA     NA NA  NA  NA
+
+# Example 4: Explicitly remove missing values
+summarize_numeric(c(5, 10, NA, 20, 25), na.rm = TRUE)
+#>   n missing mean median       sd min max
+#> 1 5       1   15     15 9.128709   5  25
 ```

@@ -19,7 +19,7 @@
 #' summarize_numeric(c(2, 4, 6, 8, 10))
 #' summarize_numeric(c(2, 4, NA, 8, 10))
 #' summarize_numeric(c(2, 4, NA, 8, 10), na.rm = FALSE)
-#' summarize_numeric(c(5, 10, 15, 20), na.rm = TRUE)
+#' summarize_numeric(c(5, 10, NA, 20, 25), na.rm = TRUE)
 #'
 #' @export
 
