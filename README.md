@@ -26,7 +26,7 @@ Alternatively, you can install the package using `pak`:
 # Install pak if it is not already installed
 install.packages("pak")
 
-# Install the package using pak
+# Install the package from Github using pak
 pak::pak("UBC-STAT545-F2026/assignmentB2SouravShome")
 ```
 
