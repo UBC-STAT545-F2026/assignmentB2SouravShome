@@ -19,8 +19,7 @@ minimum, and maximum.
 }
 \description{
 This function calculates descriptive statistics for a
-numeric vector and allows the user to control how missing values
-are handled.
+numeric vector and allows the user to control how missing values are handled.
 }
 \details{
 By default, na.rm is set to TRUE to remove missing values.

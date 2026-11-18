@@ -1,8 +1,7 @@
 #' @title Summarize a Numeric Vector
 #'
 #' @description This function calculates descriptive statistics for a
-#' numeric vector and allows the user to control how missing values
-#' are handled.
+#' numeric vector and allows the user to control how missing values are handled.
 #'
 #' @param x A numeric vector to summarize.
 #'
