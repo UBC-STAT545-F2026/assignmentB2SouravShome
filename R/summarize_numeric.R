@@ -11,8 +11,7 @@
 #' @details By default, na.rm is set to TRUE to remove missing values.
 #'
 #' @return A data frame with one row containing the total number
-#' of observations, missing values, mean, median, standard deviation,
-#' minimum, and maximum.
+#' of observations, missing values, mean, median, standard deviation, minimum, and maximum.
 #'
 #' @examples
 #' summarize_numeric(c(2, 4, 6, 8, 10))

@@ -14,8 +14,7 @@ missing values should be removed. The default is TRUE.}
 }
 \value{
 A data frame with one row containing the total number
-of observations, missing values, mean, median, standard deviation,
-minimum, and maximum.
+of observations, missing values, mean, median, standard deviation, minimum, and maximum.
 }
 \description{
 This function calculates descriptive statistics for a
