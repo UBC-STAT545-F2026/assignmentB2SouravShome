@@ -6,7 +6,7 @@
 #' @param x A numeric vector to summarize.
 #'
 #' @param na.rm A logical value (TRUE or FALSE) indicating whether
-#' missing values should be removed. The default is TRUE.
+#' missing values should be removed.
 #'
 #' @details By default, na.rm is set to TRUE to remove missing values.
 #'

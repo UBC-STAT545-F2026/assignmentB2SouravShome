@@ -10,7 +10,7 @@ summarize_numeric(x, na.rm = TRUE)
 \item{x}{A numeric vector to summarize.}
 
 \item{na.rm}{A logical value (TRUE or FALSE) indicating whether
-missing values should be removed. The default is TRUE.}
+missing values should be removed.}
 }
 \value{
 A data frame with one row containing the total number
